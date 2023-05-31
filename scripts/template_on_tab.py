@@ -20,6 +20,6 @@ def on_ui_tabs():
                 label="Checkbox"
             )
             # TODO: add more UI components (cf. https://gradio.app/docs/#components)
-        return [(ui_component, "Extension Template", "extension_template_tab")]
+        return [(ui_component, "연습용", "extension_template_tab")]
 
 script_callbacks.on_ui_tabs(on_ui_tabs)
